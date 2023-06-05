@@ -19,8 +19,20 @@ Detokenize - POST http://localhost:3000/detokenize
 This project includes one Postman collections. postman/tokenization.postman_collection.json
 
 Tokenize - you could replace with other account number to test
+e.g.
+{"accountNumbers": [
+  "4111-1111-1111-1111",
+  "4444-3333-2222-1111",
+  "4444-1111-2222-3333"
+]}
 
 Detokenize - to get valid input to test, you could run tokenize first, and paste the response tokens into request body of detokenize
+e.g.
+{"tokens": [
+    "nfWeQnUtDpLnpyxshtZ1zRT9wJHwXxkF",
+    "cunpExxYIz5WDIwbAR3lI7x7NfBTsZPU",
+    "h0LLt3WUgHmYfJxneVZ6ahRrqAwiDx1Z"
+]}
 
 
 ## Run unit tests
