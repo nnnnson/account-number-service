@@ -19,6 +19,7 @@ Detokenize - POST http://localhost:3000/detokenize
 This project includes one Postman collections. postman/tokenization.postman_collection.json
 
 Tokenize - you could replace with other account number to test
+
 Detokenize - to get valid input to test, you could run tokenize first, and paste the response tokens into request body of detokenize
 
 
